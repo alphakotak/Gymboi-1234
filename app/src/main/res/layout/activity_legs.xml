@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".legs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <CheckBox android:id="@+id/biceps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/biceps"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Weight(in lbs)"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/weight1"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weight2"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weight3"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/weight4"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Reps"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+                <EditText
+                    android:id="@+id/r1"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/r2"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/r3"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/r4"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <CheckBox android:id="@+id/triceps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/triceps"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Weight(in lbs)"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/aweight1"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/aweight2"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/aweight3"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/aweight4"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Reps"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+                <EditText
+                    android:id="@+id/ar1"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/ar2"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/ar3"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/ar4"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:inputType="number"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Surya"
+                android:textSize="20dp"/>
+
+
+
+            <Button
+                android:id="@+id/order"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Send"
+                android:onClick="submitOrder"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Gymboi</string>
+    <string name="biceps">BICEPS</string>
+    <string name="nota"></string>
+    <string name="half_crunch">Half Crunch</string>
+    <string name="full_crunch">Full Crunch</string>
+    <string name="hanging_leg_raise">Hanging Leg Raise</string>
+    <string name="hanging_knee_raise">Hanging Knee Raise</string>
+
+
+
+    <string name="triceps">TRICEPS</string>
+    <string name="mail1">meet.kotak@somaiya.edu</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_cardio">Cardio</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_biceps">Biceps</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_abs">Abs</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_back">Back</string>
 </resources>

@@ -3,4 +3,23 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="primary_color">#152b98</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#D3D3D3</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#ffffff</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_numbers">#ffffff</color>
+
+    <!-- Background color for the family members category -->
+    <color name="category_family">#ffffff</color>
+
+    <!-- Background color for the colors category -->
+    <color name="category_colors">#ffffff</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_phrases">#ffffff</color>
 </resources>

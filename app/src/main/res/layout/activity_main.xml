@@ -1,39 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/tan_background"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.example.android.gymboi.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BICEPS"
-        android:textSize="25sp" />
+        android:id="@+id/abs"
+        style="@style/CategoryStyle"
+        android:layout_height="75dp"
+        android:textColor="#000000"
+        android:onClick="openAbs"
+        android:text="@string/category_abs" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Weight(in lbs)"
-        android:textSize="18sp" />
+        android:id="@+id/back"
+        style="@style/CategoryStyle"
+        android:layout_height="75dp"
+        android:textColor="#000000"
+        android:text="@string/category_back" />
 
-    <EditText
-        android:id="@+id/weight1"
-        android:layout_width="35dp"
-        android:layout_height="50dp"
-        android:hint="00"
-        android:inputType="number"
-        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/biceps"
+        style="@style/CategoryStyle"
+        android:layout_height="75dp"
+        android:textColor="#000000"
+        android:text="@string/category_biceps" />
 
-    <Button
-        android:id="@+id/order"
-        android:layout_marginTop="16dp"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="Order"
-        android:onClick="submitOrder"/>
+    <TextView
+        android:id="@+id/cardio"
+        style="@style/CategoryStyle"
+        android:layout_height="75dp"
+        android:textColor="#000000"
+        android:text="@string/category_cardio" />
+
+
 
 </LinearLayout>

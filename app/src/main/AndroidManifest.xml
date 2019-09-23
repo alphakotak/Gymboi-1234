@@ -16,6 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".legs"
+            android:label="Legs" />
+        <activity android:name=".chest"
+            android:label="Chest" />
+        <activity android:name=".triceps"
+            android:label="Triceps" />
+        <activity android:name=".biceps"
+            android:label="Biceps" />
+        <activity android:name=".shoulder"
+            android:label="Shoulder" />
+        <activity android:name=".back"
+            android:label="Back" />
+        <activity android:name=".abs"
+            android:label="Abs" />
+        <activity android:name=".cardio"
+            android:label="Cardio"
+            ></activity>
     </application>
 
 </manifest>
